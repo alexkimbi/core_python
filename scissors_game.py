@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 import random
 
-computer_choice = random.choice(['rock','paper','scissors']) # This is a list where  the random will choose from
+computer_choice = random.choice(['rock','paper','scissors']) # This is a list where the random will choose from by auto
+# and matches the condition in the if block below.
 user_choice = input('Do you want rock,paper or scissors?')
 print('Computer Choice:', computer_choice)
 
