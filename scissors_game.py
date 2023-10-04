@@ -10,4 +10,4 @@ elif computer_choice == 'paper' and user_choice == 'rock':
 elif computer_choice == 'rock' and user_choice == 'paper':
     print('You won the game')
 else:
-    print('All your choices arewrong ... BYE BYE')
+    print('All your choices are wrong ... BYE BYE')
