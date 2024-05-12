@@ -17,7 +17,7 @@ class Company:
         for i  in self.employees:
             print('Paycheck for ', i.fname.upper(), i.lname.upper())
             print(f'Amount: ${i.calculate_paycheck():,.2f}')
-            print('-------------------------------------') 
+            print('---------------------------------------') 
 
     def top_pay_employees(self):
         for i in self.employees:
@@ -30,10 +30,9 @@ class Company:
     # def years_of_service(self):
     #     print('The years of empoyment:')
     #     for i in self.employees:
-    #         # if i.years() > 1:
-    #         print(i.years)
-    #         self.years[i.fname, i.lname()]
-    #     print(self.years_of_service)
+            
+            
+
                  
         
 def main():
@@ -46,9 +45,9 @@ def main():
     employee3 = Employee('Bob', 'Brown', 250000, 2 )
     my_company.add_employee(employee3)
    
-    # my_company.years_of_service()
+   # my_company.years_of_service()
     my_company.top_pay_employees()
    # my_company.display_employees()
     my_company.pay_employees()
   
-main()
+# main()

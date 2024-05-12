@@ -21,4 +21,3 @@ def main():
         print('You tie')
 
 main()
-    
